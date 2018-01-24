@@ -24,7 +24,7 @@ def find_the_cheese(arr)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   for cheese in cheese_types
     if arr.include?(cheese)
-      cheese
+      return cheese
     end
   end
 end
